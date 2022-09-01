@@ -1,0 +1,11 @@
+html{
+    background-color: rgb(86, 179, 230);
+    color: white;
+    font-size: 20px;
+}
+
+ul{
+    background: rgb(86, 179, 230);
+    padding: 10px;
+    border: 1px solid black;
+}
