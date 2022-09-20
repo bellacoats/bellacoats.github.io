@@ -8,7 +8,6 @@
   
   body {
     margin: 0;
-
   }
 
   article {
@@ -39,10 +38,27 @@
     text-shadow: 1px 1px 1px black;
   }
   
-  h1 {
-    background-image: url("./img/logo.png");
-    border-radius: 50%;
-  }
   /* Your CSS below here */
+  body{
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: linear-gradient(180deg, grey, white, white, white, white, grey);
+  }
 
+  article {
+    background: top / contain
+                no-repeat
+                url("../img/top-image.png"),
+                bottom / contain
+                no-repeat
+                url("../img/bottom-image.png");
+    border-top: 1mm solid red; 
+    border-bottom: 1mm solid red;
+  }
 
+  h1{
+    background: no-repeat   
+                url("../img/logo.png"); 
+                filter:drop-shadow(8px 8px 5px grey);
+               
+  }
