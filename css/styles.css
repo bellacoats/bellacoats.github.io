@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(238,236,228);
+    color: rgb(63, 67, 71);
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-weight: normal;
+    font-stretch:expanded;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    color: rgb(63,67,71);
+    font-size: 2em;
+    border-bottom: 5px solid rgb(71,19,35);
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  a:link,
+  a:visited {
+    color: rgb(80,132,132);
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(71,19,35);
+  }
