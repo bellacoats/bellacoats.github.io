@@ -9,7 +9,7 @@ html {
   }
 
   h1 {
-    color: rgb(63,67,71);
+    color: rgb(71,19,35);
     font-size: 2em;
     border-bottom: 5px solid rgb(71,19,35);
   }
@@ -24,10 +24,30 @@ html {
 
   a:link,
   a:visited {
-    color: rgb(80,132,132);
+    color: rgb(13, 34, 52);
   }
 
   a:hover {
     text-decoration: none;
     color: rgb(71,19,35);
+  }
+
+  .button { 
+    background-color: rgb(150,134,115);
+    border:none;
+    color:rgb(238,236,228);
+    padding: 10px 24px;
+    text-align:center;
+    font-size:18px;
+    margin: 10px 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius:8px;
+  }
+  .button:hover {
+    background-color:rgb(150,134,115);
+    opacity:1;
   }
