@@ -7,6 +7,7 @@ body {
 
   img {
       max-width: 100%;
+      display:block;
   }
   
   .logo {
@@ -62,5 +63,5 @@ body {
   .feature {
       width: 200px;
       float:left;
-      margin:1em;
+      margin-right:1em;
   }
