@@ -9,7 +9,7 @@ html {
   }
 
   h1 {
-    color: rgb(71,19,35);
+    color: rgb(103, 86, 86);
     font-size: 2em;
     border-bottom: 5px solid rgb(71,19,35);
   }
@@ -50,4 +50,27 @@ html {
   .button:hover {
     background-color:rgb(150,134,115);
     opacity:1;
+  }
+
+  nav {
+    background-color: rgb(167, 78, 105);
+    padding: .5em;
+    position: sticky;
+    top:0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+  }
+
+  nav li{
+    font-size: 15px;
   }
