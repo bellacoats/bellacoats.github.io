@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    background-color: black;
+    color: #f9f2e1;
+    font-family:  "gill sans", sans-serif;
+    font-weight: normal;
+    font-stretch: expanded;
+    margin:0;
+    display: grid;
+    max-width:100%;
+  }
+
+h1 {
+  text-align:center;
+  grid-column-start: span 4; 
+}
+
+h2{
+  text-align:center;
+}
+
+#AboutMe {
+  padding:2.5em;
+}
+
+#hi {
+  padding: 1em 2em;
+  display:flex;
+  justify-content: center;
+}
+
+h3{
+  text-align:center;
+}
+
+.table{
+  list-style:none;
+  justify-content: center;
+  display:flex;
+  justify-content: center;
+}
+
+#item1 {
+  text-align: center;
+  grid-template-columns: 1;
+  width:100%;
+}
+
+.grid {
+  margin: 0px;
+  padding: 20px 20px;
+  max-width: 1580px;
+  display:grid;
+  gap: 20px;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+#navbardesktop {
+  background-color: #f9f2e1;
+  width:100%;
+  padding: 2em;
+  position: sticky;
+  top:0;
+}
+#navbardesktop a {
+  color: black;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+#navbardesktop ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#navbardesktop li{
+  font-size: 15px;
+}
+
+#navbardesktop a:link{
+  color: white;
+}
+
+/* #navbardesktop a:hover{
+  color:rgb(88, 34, 111);
+  text-decoration:none;
+} */
+
+.button a{
+  text-decoration:none;
+}
+
+#navbarmobile {
+  display:none;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+
+html{
+  background-color:#f9f2e1;
+  color:black;
+}
+
+  #navbarmobile {
+    display:flex;
+    width:100%;
+    padding:.5em;
+    top:0px;
+    background-color:black;
+  }
+  #navbarmobile ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    }
+    #navbarmobile ul li{
+      padding: 10px;
+      text-decoration:none;
+      list-style:none;
+    }
+    #navbarmobile ul li a {
+      color:rgb(255,255,255);
+      text-decoration:none;
+      padding: .5em 1em;
+    }
+    #navbardesktop {
+      display:none;
+      max-width:100%;
+    }
+    #navbarmobile a:link,
+        a:visited {
+          color: rgb(13, 34, 52);
+    }
+    #navbarmobile a:hover{
+      text-decoration:none;
+      color:rgb(31, 132, 142);
+    }
+    h1 {
+      text-align:center;
+    }
+    p {
+      grid-column-start: span 2;
+    }
+    .photos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+    }
+}
+
