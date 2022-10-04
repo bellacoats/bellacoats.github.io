@@ -95,17 +95,20 @@ h3{
   color: white;
 }
 
-/* #navbardesktop a:hover{
-  color:rgb(88, 34, 111);
-  text-decoration:none;
-} */
-
 .button a{
   text-decoration:none;
 }
 
 #navbarmobile {
   display:none;
+}
+
+.linkedin {
+  background:url(/Users/bellacoats/Desktop/bellacoats.github.io/img2/linkedin.png) no-repeat;
+  cursor:pointer;
+  border:none;
+  width:100px;
+  height:100px;
 }
 
 
