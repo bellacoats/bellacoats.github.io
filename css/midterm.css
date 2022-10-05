@@ -180,7 +180,7 @@ html{
       max-width:100%;
     }
     #navbarmobile a:link{
-          color: rgb(13, 34, 52);
+          color: white;
     }
     #navbarmobile a:hover{
       text-decoration:none;
