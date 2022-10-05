@@ -79,7 +79,7 @@ h3{
 
 #item1 {
   text-align: center;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   width:100%;
 }
 
@@ -157,12 +157,14 @@ html{
     background-color:black;
   }
   #navbarmobile ul {
+    color:white;
     margin: 0;
     padding: 10px;
     list-style: none;
     display:flex;
     justify-content: space-evenly;
     width:100%;
+    
     }
     #navbarmobile ul li{
       padding: 10px;
@@ -185,7 +187,7 @@ html{
     #navbarmobile a:hover{
       text-decoration:none;
       color:rgb(31, 132, 142);
-    }
+    } 
     h1 {
       text-align:center;
     }
@@ -198,7 +200,7 @@ html{
       padding: 0;
       display:grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10 px;
+      gap: 10px;
       align-items:center;
     }
     a:hover{
@@ -217,7 +219,7 @@ html{
       padding: 0;
       display:grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10 px;
+      gap: 10px;
       align-items:center;
     }
     #item1{
