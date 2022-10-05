@@ -28,11 +28,7 @@ p{
   text-align:center;
 }
 
-a:link {
-  color:black;
-}
-
-a:hover {
+p a:hover {
   color:rgb(31, 132, 142);
 }
 
@@ -121,7 +117,7 @@ h3{
 }
 
 #navbardesktop li{
-  font-size: 15px;
+  font-size: 25px;
   color:black;
 }
 
@@ -140,6 +136,18 @@ h3{
 #navbarmobile {
   display:none;
 }
+
+#music{
+  justify-content: center;
+  display:grid;
+  grid-template-columns: repeat(7, 150px);
+  grid-auto-flow: dense ;
+}
+
+h6{
+  text-align: center;
+}
+
 
 @media only screen and (max-width:1000px)
 {
@@ -170,7 +178,8 @@ html{
       padding: 10px;
       text-decoration:none;
       list-style:none;
-      color:#f9f2e1
+      color:#f9f2e1;
+      font-size: 18px;
     }
     #navbarmobile ul li a {
       color:#f9f2e1;
@@ -240,6 +249,26 @@ html{
       padding-left: 10px;
       padding-right:10px;
     }
+    #music{
+      justify-content: center;
+      display:grid;
+      grid-template-columns: repeat(3, 150px);
+      grid-auto-flow: dense ;
+    }
+}
+
+@media only screen and (max-width:750px)
+{
+ #navbarmobile ul li{
+  font-size:15px;
+ }
+}
+
+@media only screen and (max-width:570px)
+{
+ #navbarmobile ul li{
+  font-size:12px;
+ }
 }
 
 
