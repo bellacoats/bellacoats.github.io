@@ -17,10 +17,27 @@ html {
 h1 {
   text-align:center;
   grid-column-start: span 4; 
+  font-size:50px;
 }
 
 h2{
   text-align:center;
+}
+
+p{
+  text-align:center;
+}
+
+a:link {
+  color:black;
+}
+
+a:hover {
+  color:rgb(31, 132, 142);
+}
+
+a:visited{
+  color:rgb(171, 43, 169);
 }
 
 #AboutMe {
@@ -35,6 +52,22 @@ h2{
 
 h3{
   text-align:center;
+}
+
+#archie{
+  display:flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.indexflex{
+  display:flex;
+  justify-content: center;
+}
+
+#pfp{
+  display:flex;
+  justify-content: center;
 }
 
 .table{
@@ -89,10 +122,15 @@ h3{
 
 #navbardesktop li{
   font-size: 15px;
+  color:black;
 }
 
 #navbardesktop a:link{
-  color: white;
+  color: black;
+}
+
+#navbardesktop a:hover{
+  color:rgb(31, 132, 142);
 }
 
 .button a{
@@ -102,15 +140,6 @@ h3{
 #navbarmobile {
   display:none;
 }
-
-.linkedin {
-  background:url(/Users/bellacoats/Desktop/bellacoats.github.io/img2/linkedin.png) no-repeat;
-  cursor:pointer;
-  border:none;
-  width:100px;
-  height:100px;
-}
-
 
 @media only screen and (max-width:1000px)
 {
@@ -139,9 +168,10 @@ html{
       padding: 10px;
       text-decoration:none;
       list-style:none;
+      color:#f9f2e1
     }
     #navbarmobile ul li a {
-      color:rgb(255,255,255);
+      color:#f9f2e1;
       text-decoration:none;
       padding: .5em 1em;
     }
@@ -149,8 +179,7 @@ html{
       display:none;
       max-width:100%;
     }
-    #navbarmobile a:link,
-        a:visited {
+    #navbarmobile a:link{
           color: rgb(13, 34, 52);
     }
     #navbarmobile a:hover{
@@ -165,11 +194,50 @@ html{
     }
     .photos {
       list-style: none;
-      margin: 0;
+      margin: 50px auto;
       padding: 0;
       display:grid;
       grid-template-columns: 1fr 1fr;
-      gap: 1px;
+      gap: 10 px;
+      align-items:center;
+    }
+    a:hover{
+      color:rgb(31, 132, 142);
+    }
+
+    #AboutMe{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      max-width:100%;
+    }
+    #archie {
+      list-style: none;
+      margin: 50px auto;
+      padding: 0;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10 px;
+      align-items:center;
+    }
+    #item1{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+    }
+    .grid {
+      display:flex;
+      flex-direction:column;
+    }
+    #item2{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-evenly;
+    }
+    p{
+      padding-left: 10px;
+      padding-right:10px;
     }
 }
+
 
