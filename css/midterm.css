@@ -89,12 +89,12 @@ h3{
 
 .photos {
   list-style: none;
-  margin: 0;
+  margin: 25px auto;
   padding: 0;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1px;
-}
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 10px;
+  align-items:center;}
 
 #navbardesktop {
   background-color: #f9f2e1;
@@ -211,6 +211,13 @@ html{
       grid-template-columns: 1fr 1fr;
       gap: 10px;
       align-items:center;
+      /* list-style: none;
+      margin: 50px auto;
+      padding: 0;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      align-items:center; */
     }
     a:hover{
       color:rgb(31, 132, 142);
