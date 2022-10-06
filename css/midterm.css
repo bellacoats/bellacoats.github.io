@@ -148,6 +148,20 @@ h6{
   text-align: center;
 }
 
+button{
+  border:none;
+  border-bottom:none;
+  gap:0px;
+  margin:0;
+  height:150px;
+  width:150px;
+}
+
+form{
+  height:150px;
+  width:150px;
+}
+
 
 @media only screen and (max-width:1000px)
 {
