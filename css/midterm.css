@@ -32,7 +32,7 @@ p a:hover {
   color:rgb(31, 132, 142);
 }
 
-a:visited{
+p a:visited{
   color:rgb(171, 43, 169);
 }
 
@@ -148,7 +148,7 @@ h6{
   text-align: center;
 }
 
-button{
+#music button{
   border:none;
   border-bottom:none;
   gap:0px;
@@ -157,9 +157,22 @@ button{
   width:150px;
 }
 
-form{
+#music form{
   height:150px;
   width:150px;
+}
+
+#item2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#item2 button, form{
+  border:none;
+  height:100px;
+  width:100px;
 }
 
 
