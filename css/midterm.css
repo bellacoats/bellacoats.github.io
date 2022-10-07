@@ -28,12 +28,12 @@ p{
   text-align:center;
 }
 
-p a:hover {
-  color:rgb(31, 132, 142);
+p a:link{
+  color:white;
 }
 
-p a:visited{
-  color:rgb(171, 43, 169);
+p a:hover{
+  color:rgb(31, 132, 142);
 }
 
 #AboutMe {
@@ -175,9 +175,24 @@ h6{
   width:100px;
 }
 
+p a{
+  color:white;
+}
+
+p a:visited{
+  color:rgb(206, 114, 129);
+}
+p a:hover{
+  color:rgb(31, 132, 142);
+}
+
 
 @media only screen and (max-width:1000px)
 {
+
+p a{
+  color:black;
+}
 
 html{
   background-color:#f9f2e1;
@@ -239,7 +254,7 @@ html{
       gap: 10px;
       align-items:center;
     }
-    a:hover{
+    p a:hover{
       color:rgb(31, 132, 142);
     }
 
@@ -282,6 +297,7 @@ html{
       grid-template-columns: repeat(5, 150px);
       grid-auto-flow: dense ;
     }
+    
 }
 
 @media only screen and (max-width:750px)
