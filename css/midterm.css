@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+main{
+  transition: background-color 1s;
+}
+
 html {
     background-color: black;
     color: #f9f2e1;
