@@ -94,17 +94,18 @@ console.log(company.employees);
 // Problem 6 - Work From Home addition
 
 let check = false;
-let wfh = ["Anna","Sam"];
+let wfh = ['Anna','Sam'];
 for (let i=0; i < company.employees.length; i++){
     let name = company.employees[i].first_name;
-    for (let k = 0; k < wfh.length; k++){
-        if(wfh[k] === name){
+    for (let k = 0; k < 2; k++){
+        if(wfh[k] == name){
             check = true;
         }
 }
-    if(check === true){
+    if(check == true){
         company['employees'][i].work_from_home = true;
     } else {
         company['employees'][i].work_from_home = false;
     }}
     console.log(company.employees);
+console.log(wfh);
