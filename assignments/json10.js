@@ -57,10 +57,9 @@ let company =
          }
      ]
     }
+    console.log(company);
 
     // Problem 3 - Add 4th employee to list
-
-console.log(company);
 
     let employee = {
     "first_name" : "Anna",
