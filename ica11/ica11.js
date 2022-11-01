@@ -1,3 +1,5 @@
+window.addEventListener('load',getQuote);
+
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener('click',getQuote);
 
