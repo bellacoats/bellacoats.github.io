@@ -10,16 +10,11 @@
       font-weight: normal;
       font-stretch: expanded;
       margin:0;
-      display: grid;
+      display: flex;
+      flex-direction: column;
       max-width:100%;
     }
-  
-  h1 {
-    text-align:center;
-    grid-column-start: span 4; 
-    font-size:50px;
-    color: black;
-  }
+
 
 *,
 *::before,
@@ -30,7 +25,6 @@
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  /* background-color: #c9bd95; */
 }
 
 .app {
@@ -82,23 +76,35 @@ header {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
-.twitter {
+.punchline {
   background-color: rgb(111, 111, 205);
   text-decoration: none;
   width: auto;
 }
 
-.twitter:hover {
+.punchline-text {
+    color:red;
+    font-size: 25px;
+}
+
+.punchline:hover {
   background-color: #5f136e;
 }
 
 .new-quote {
-  background-color: #2f866a;
+  background-color: #4488b9;
   margin-bottom: 15px;
 }
 
 .new-quote:hover {
-  background-color: #0b4a2d;
+  background-color: #295a7d;
+}
+
+.p {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    right: 20%;
 }
 
 .new-quote:disabled {
