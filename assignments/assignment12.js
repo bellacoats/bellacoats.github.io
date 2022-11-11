@@ -19,27 +19,55 @@ function reset3(){
 function random1(){
     outputInt1 = randomNumber(0,999);
     output1.textContent = outputInt1;
-    let one = outputInt1.toString();
-
-    var length1 = outputInt1.toString().length;
+    var string1 = outputInt1.toString();
+    var length1 = string1.length;
+    console.log(length1);
+    console.log(string1);
     if (length1 === 2){
-        one = '0' + one;
+        string1 = '0' + string1;
     }
     if (length1 === 1){
-        one = '00' + one;
+        string1 = '00' + string1;
     }
-    console.log(length1);
-    console.log(one);
+    output1.textContent=string1;
+    console.log(string1);
 }
 
 function random2(){
     outputInt2 = randomNumber(0,999);
     output2.textContent = outputInt2;
+    var string2 = outputInt2.toString();
+    var length2 = string2.length;
+    console.log(length2);
+    console.log(string2);
+    if (length2 === 2){
+        string2 = '0' + string2;
+    }
+    if (length2 === 1){
+        string2 = '00' + string2;
+    }
+    output2.textContent=string2;
+    console.log(string2);
 }
 
 function random3(){
     outputInt3 = randomNumber(0,9999);
     output3.textContent = outputInt3;
+    var string3 = outputInt3.toString();
+    var length3 = string3.length;
+    console.log(length3);
+    console.log(string3);
+    if (length3 === 3){
+        string3 = '0' + string3;
+    }
+    if (length3 === 2){
+        string3 = string3 + '00';
+    }
+    if (length3 === 1){
+        string3 = '000' + string3;
+    }
+    output3.textContent=string3;
+    console.log(string3);
 }
 
 function randomNumber(min,max){
