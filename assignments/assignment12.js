@@ -19,15 +19,17 @@ function reset3(){
 function random1(){
     outputInt1 = randomNumber(0,999);
     output1.textContent = outputInt1;
+    let one = outputInt1.toString();
+
     var length1 = outputInt1.toString().length;
     if (length1 === 2){
-        outputInt1 == '0' + outputInt1;
+        one = '0' + one;
     }
     if (length1 === 1){
-        outputInt1 == '00' + outputInt1;
+        one = '00' + one;
     }
     console.log(length1);
-    console.log(outputInt1);
+    console.log(one);
 }
 
 function random2(){
@@ -68,6 +70,8 @@ const resetButton3 = document.querySelector('.reset-button3').addEventListener('
 const randomButton3 = document.querySelector('.random-button3').addEventListener('click',random3);
 const yesButton = document.querySelector('.yes-button').addEventListener('click',yes);
 const noButton = document.querySelector('.no-button').addEventListener('click',no);
+
+const submitButton = document.querySelector('.submit-button').addEventListener('click',submit);
 
 function yes(){
     alert('Congrats!');
