@@ -17,7 +17,7 @@ function reset3(){
 
 //random button
 function random1(){
-    outputInt1 = randomNumber(0,999);
+    outputInt1 = randomNumber(100,999);
     output1.textContent = outputInt1;
     var string1 = outputInt1.toString();
     var length1 = string1.length;
@@ -67,8 +67,9 @@ function random3(){
         string3 = '000' + string3;
     }
     output3.textContent=string3;
-    console.log(string3);
+    console.log(string3);   
 }
+
 
 function randomNumber(min,max){
     const num = Math.floor(Math.random() * (max-min + 1)) + min;
