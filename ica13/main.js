@@ -16,6 +16,5 @@ const aliceTumbling = [
   alice1.animate(aliceTumbling, aliceTiming).finished
     .then(() => alice2.animate(aliceTumbling, aliceTiming).finished)
     .then(() => alice3.animate(aliceTumbling, aliceTiming).finished)
-    .catch(error => console.error(`Error animating Alices: ${error}`));
   
   
