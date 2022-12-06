@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -66,9 +67,13 @@ h3{
   justify-content: center;
 }
 
-#pfp{
+#me{
   display:flex;
   justify-content: center;
+}
+
+#pfp:hover{
+  cursor:pointer;
 }
 
 .table{
@@ -147,6 +152,18 @@ h3{
   text-decoration:none;
 }
 
+/* #navdesktop {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#navmobile {
+  display:flex;
+  flex-direction: row;
+} */
+
 /* MUSIC PAGE */
 
 #music{
@@ -194,6 +211,9 @@ h6{
   height:100px;
   width:100px;
 }
+#item2 button:hover{
+  cursor:pointer;
+}
 
 p a{
   color:rgb(0, 0, 0);
@@ -206,27 +226,7 @@ p a:hover{
   color:rgb(31, 132, 142);
 }
 
-/* GAME PAGE */
 
-.game body {
-  overflow: hidden;
-  height: inherit;
-}
-canvas{
-  background-color: black;
-}
-
-.game h1 {
-  font-size: 2rem;
-  letter-spacing: -1px;
-  position: relative;
-  margin: 0;
-  top: -4px;
-  right: 5px;
-
-  color: transparent;
-  text-shadow: 0 0 4px white;
-}
 @media only screen and (max-width:1000px)
 {
  #navbarmobile ul li{
@@ -423,7 +423,3 @@ html{
   grid-auto-flow: dense ;
 }
 }
-
-
-
-
