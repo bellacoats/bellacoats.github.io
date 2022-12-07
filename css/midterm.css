@@ -19,6 +19,20 @@ html {
     max-width:100%;
   }
 
+.landing {
+  margin: 20px;
+  padding: 20px 20px;
+  max-width: 100%;
+  display:flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+.col-1{
+  align-items: center;
+  text-align: center;
+}
+
 h1 {
   text-align:center;
   grid-column-start: span 4; 
@@ -59,7 +73,7 @@ h4{
   text-align: center;
 }
 
-#archie{
+#film{
   display:flex;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -355,7 +369,7 @@ p a:hover{
   align-content: center;
   justify-content: center;
 }
-#archie{
+#film{
   display:grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -379,7 +393,7 @@ p a:hover{
   display:grid;
   grid-template-columns:1fr 1fr;
 }
-#archie {
+#film {
   list-style: none;
   margin: 50px auto;
   padding: 0;
@@ -479,7 +493,7 @@ html{
       max-width:100%;
     }
  
-    #archie {
+    #film {
       list-style: none;
       margin: 50px auto;
       padding: 0;

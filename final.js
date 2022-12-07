@@ -31,12 +31,3 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-// change profile pic
-
-var img = document.querySelector("#pfp");
-
-function newImage(){
-   img.src="img/bellaimg.jpg"
-}
-
-img.addEventListener('click', newImage);
