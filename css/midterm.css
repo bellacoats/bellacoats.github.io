@@ -11,7 +11,7 @@ main{
 html {
     background-color: black;
     color: #f9f2e1;
-    font-family:  "gill sans", sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     font-stretch: expanded;
     margin:0;
@@ -195,14 +195,14 @@ h4{
 #me img:hover{
   cursor:pointer;
 }
-/* #film img{
-  opacity: .6;
-}
 
 #film img:hover{
-  cursor:pointer;
+  cursor: pointer;
+  scale: 1.2; 
   opacity: 1;
-} */
+  box-shadow: 0 0 0 12px rgb(255, 255, 255);
+  transition: all 300ms ease-in-out;
+}
 
 #list{
   margin: auto;
@@ -272,6 +272,7 @@ h4{
 #navbardesktop li{
   display:flex;
   font-size: 13px;
+  font-weight: 700;
   color:black;
   max-width: 100%;
 }
@@ -433,6 +434,7 @@ p a:hover{
  #navbarmobile ul li{
   font-size:13px;
   padding: 10px 10px;
+  font-weight: 500;
  }
  #music{
   max-width: 100%;
@@ -452,7 +454,7 @@ p a:hover{
 }
 #film{
   display:grid;
-  justify-content: center;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
