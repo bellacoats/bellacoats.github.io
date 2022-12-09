@@ -76,6 +76,10 @@ hr{
   text-align: center;
 }
 
+#text{
+  margin: 0 50px;
+}
+
 #text1 {
   margin: 20px 50px;
   text-align: center;
@@ -536,6 +540,10 @@ p a:hover{
 
 @media only screen and (max-width:650px)
 {
+
+  #text{
+    margin: 0 20px;
+  }
 
 #col-1{
   margin: 0px 10px;
