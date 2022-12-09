@@ -410,7 +410,7 @@ p a:hover{
 }
 
 /* picture slideshow */
-.container {
+.slideshow {
   position: relative;
   margin: 20px;
   width: 300px;
@@ -431,8 +431,8 @@ p a:hover{
 }
 
 /* arrows */
-.prev,
-.next {
+.left,
+.right {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -447,14 +447,14 @@ p a:hover{
   -webkit-user-select: none;
 }
 
-.next {
+.left {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* background on hover */
-.prev:hover,
-.next:hover {
+/* background on arrows */
+.left:hover,
+.right:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -659,7 +659,7 @@ hr{
   flex-direction: column;
 }
   
-.container {
+.slideshow {
   margin: 20px auto;
 }
 
