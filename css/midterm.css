@@ -19,19 +19,112 @@ html {
     max-width:100%;
   }
 
+.fade {
+  animation-name: fade;
+  animation-duration: 2.3s;
+}
+
+@keyframes fade{
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+#name li{
+  align-items: center;
+  align-content: center;
+}
+
+#article{
+  padding: 10px;
+}
+
 .landing {
   margin: 20px;
-  padding: 20px 20px;
-  max-width: 100%;
-  /* display:flex; */
-  /* gap: 20px; */
-  /* justify-content: center;
-  position: relative; */
+  display:flex;
+  flex-direction: row;
 }
-/* .col-1{
-  align-items: center;
+
+#col-1 {
+  display:flex;
+  flex-direction: column;
   text-align: center;
-} */
+  align-items: center;
+}
+
+#AboutMe p{
+  margin: 20px 120px;
+}
+
+#AboutMe h2{
+  text-decoration: underline;
+}
+
+#article h2{
+  text-decoration: underline;
+}
+
+hr{
+  color:white;
+  margin: 40px;
+}
+
+#list li{
+  text-align: center;
+}
+
+#text{
+  margin: 20px 50px;
+}
+
+#row1{
+  display:flex;
+  align-items: center;
+}
+
+#row2{
+  display:flex;
+  align-items: center;
+}
+
+#row3{
+  display:flex;
+  align-items: center;
+}
+
+#row4{
+  display:flex;
+  align-items: center;
+}
+
+#row5{
+  display:flex;
+  align-items: center;
+}
+
+#row6{
+  display:flex;
+  align-items: center;
+}
+
+#row7{
+  display:flex;
+  align-items: center;
+}
+
+#row8{
+  display:flex;
+  align-items: center;
+}
+
+#row9{
+  display:flex;
+  align-items: center;
+}
+
+#row10{
+  display:flex;
+  align-items: center;
+}
 
 h1 {
   text-align:center;
@@ -91,8 +184,29 @@ h4{
   justify-content: center;
 }
 
-#pfp:hover{
+.pfp:hover{
   cursor:pointer;
+}
+
+#me img:hover{
+  cursor:pointer;
+}
+/* #film img{
+  opacity: .6;
+}
+
+#film img:hover{
+  cursor:pointer;
+  opacity: 1;
+} */
+
+#list{
+  margin: auto;
+  padding: 20px 40px;
+}
+
+#list li{
+  list-style: none;
 }
 
 .table{
@@ -132,16 +246,17 @@ h4{
 #navbardesktop {
   background-color: #f9f2e1;
   width:100%;
-  padding: 2em;
+  padding: 1.5em;
   position: sticky;
   top:0;
 }
 #navbardesktop a {
   color: black;
   text-decoration: none;
-  padding: .5em 1em;
+  padding: .5em .5em;
 }
 #navbardesktop ul {
+  align-items: center;
   max-width: 100%;
   margin: 0;
   padding: 0;
@@ -151,6 +266,7 @@ h4{
 }
 
 #navbardesktop li{
+  display:flex;
   font-size: 13px;
   color:black;
   max-width: 100%;
@@ -247,12 +363,10 @@ p a:hover{
 
 }
 
-/* /* hide pics not shown */
 .mySlides {
   display: none;
 }
 
-/* cursor for slideshow*/
 .cursor {
   cursor: pointer;
 }
@@ -274,7 +388,6 @@ p a:hover{
   -webkit-user-select: none;
 }
 
-/* right arrow */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -311,6 +424,7 @@ p a:hover{
 {
  #navbarmobile ul li{
   font-size:13px;
+  padding: 10px 10px;
  }
  #music{
   max-width: 100%;
@@ -367,6 +481,79 @@ p a:hover{
 @media only screen and (max-width:650px)
 {
 
+#text{
+  margin: 0px 10px;
+}
+
+  #article h2{
+    padding:0px 10px;
+  }
+
+  .landing {
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+  }
+
+  #AboutMe p{
+    margin: 20px 20px;
+  }
+
+hr{
+  background: black;;
+  color:black;
+  height:5px;
+}
+
+#row1{
+  display:flex;
+  flex-direction: column;
+}
+
+#row2{
+  display:flex;
+  flex-direction: column;
+}
+
+#row3{
+  display:flex;
+  flex-direction: column;
+}
+
+#row4{
+  display:flex;
+  flex-direction: column;
+}
+
+#row5{
+  display:flex;
+  flex-direction: column;
+}
+
+#row6{
+  display:flex;
+  flex-direction: column;
+}
+
+#row7{
+  display:flex;
+  flex-direction: column;
+}
+
+#row8{
+  display:flex;
+  flex-direction: column;
+}
+
+#row9{
+  display:flex;
+  flex-direction: column;
+}
+
+#row10{
+  display:flex;
+  flex-direction: column;
+}
   
 .container {
   margin: 20px auto;
@@ -394,6 +581,7 @@ html{
     background-color:black;
   }
   #navbarmobile ul {
+    align-items: center;
     color:white;
     margin: 0;
     padding: 10px;
@@ -404,7 +592,9 @@ html{
     
     }
     #navbarmobile ul li{
+      align-content: center;
       padding: 10px;
+      display:flex;
       text-decoration:none;
       list-style:none;
       color:#f9f2e1;
@@ -504,7 +694,8 @@ html{
 @media only screen and (max-width:500px)
 {
  #navbarmobile ul li{
-  font-size:11px;
+  font-size:12px;
+  display:flex;
  }
  #music{
   max-width: 100%;
