@@ -1,10 +1,8 @@
 # bellacoats.github.io
 
 ### Fall 2022 Web Repository 
-*A sad attempt at html*
 
-I'm Bella, a Senior majoring in Marketing and minoring in CTD
+I'm Bella, a Senior majoring in Marketing and minoring in Creative Technology and Design! 
 
-My favorite color is blue and my favorite fruit is mango
+This is my Github showcasing all of my in-class work as well as projects completed using HTML, CSS, and some JavaScript.
 
-My favorite song right now is The Ghost on the Shore by Lord Huron
